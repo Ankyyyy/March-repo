@@ -11,8 +11,12 @@ Features:
 ##What I'm uploading?
 In this file, I have uploaded the following:-
 •	Question Insertion and deletion: User may insert questions as per weight age, difficulty, subject and chapter in the system.
-•	Displaying Random Paper generation: The system now automatically chooses random questions as per the selected difficulty level.
+•	Availability of the question in the already pre defined questions.
 •	Doc File Creation: The system now exports the well formatted question paper in a doc file.
+•	Displaying the paper.
+•	Special sysmbols the user can use while adding a new question.
+•	Fade system of the application.
+•	Test Pattern: Includes the pattern with no. of question, no. of sections and type of questions.
 ##Technologies Used:-
 Software Requirements:
 •	Windows Xp, Windows 7(ultimate, enterprise) 
@@ -23,12 +27,6 @@ Hardware Components:
 •	Processor – i3
 •	Hard Disk – 5 GB
 •	Memory – 1GB RAM
-##Functionalities included:-
-•	Adding and deleting the questions- I have also added a feature that if a user has already added a question and some other user also
-  wish to add the same question again then, there it tells the user that the question already exist.
-•	Displaying the question.
-•	Displaying the question paper.
-•	Generating the random question paper.
 ##Members of the project:-
 1. ANKITA GAUTAM(ROLL NO.:130101038)
 2. SHRADDHA SINGH
