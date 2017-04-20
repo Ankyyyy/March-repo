@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="696.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Uni">
+   <children>
+      <Pane layoutX="12.0" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="677.0" style="-fx-background-color: orange;" stylesheets="@GenPapers.css">
+         <children>
+            <ComboBox fx:id="examType" layoutX="202.0" layoutY="54.0" onAction="#actionOnType" prefHeight="25.0" prefWidth="316.0" promptText="None" />
+            <ComboBox fx:id="topic" disable="true" layoutX="202.0" layoutY="119.0" onAction="#onTopicSelect" prefHeight="25.0" prefWidth="316.0" promptText="None" />
+            <TextArea fx:id="question" disable="true" layoutX="21.0" layoutY="200.0" prefHeight="200.0" prefWidth="592.0" promptText="Write Question Here" wrapText="true">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="AddIt" disable="true" layoutX="264.0" layoutY="440.0" mnemonicParsing="false" onAction="#addItBoy" prefHeight="29.0" prefWidth="130.0" text="ADD QUESTION" />
+            <Button fx:id="Back" layoutX="25.0" layoutY="3.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="43.0" prefWidth="45.0" />
+            <Label layoutX="202.0" layoutY="33.0" prefHeight="17.0" prefWidth="158.0" text="EXAM TYPE" textFill="#220202">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="99.0" prefHeight="17.0" prefWidth="158.0" text="TOPIC" textFill="#170101">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="175.0" prefHeight="17.0" prefWidth="158.0" text="WRITE QUESTION" textFill="#022828">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="Symbol" disable="true" layoutX="619.0" layoutY="357.0" mnemonicParsing="false" onAction="#symbolList" prefHeight="43.0" prefWidth="45.0" />
+            <Button fx:id="deleteFile" disable="true" layoutX="329.0" layoutY="150.0" mnemonicParsing="false" onAction="#deleteF" prefHeight="29.0" prefWidth="91.0" text="DELETE" />
+            <Button fx:id="openFile" disable="true" layoutX="439.0" layoutY="150.0" mnemonicParsing="false" onAction="#showQuestions" prefHeight="29.0" prefWidth="91.0" text="OPEN" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
