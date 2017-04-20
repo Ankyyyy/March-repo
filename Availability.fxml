@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="652.0" style="-fx-background-color: white;" stylesheets="@GenPapers.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Availability">
+   <children>
+      <Pane fx:id="anchor" layoutX="14.0" layoutY="67.0" prefHeight="500.0" prefWidth="624.0" />
+      <Button fx:id="cancel" layoutX="235.0" layoutY="578.0" mnemonicParsing="false" onAction="#cancelAddition" text="Do Not Add" />
+      <Button fx:id="addQues" layoutX="357.0" layoutY="578.0" mnemonicParsing="false" onAction="#addQues" text="Add Anyway" />
+      <Label layoutX="120.0" layoutY="12.0" prefHeight="51.0" prefWidth="423.0" text="It Seems that the Question is already there in the Database" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
